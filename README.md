@@ -1,5 +1,5 @@
 # 104-Django-APP
-***
+
 ## 使用方式
 
 1.安裝django
