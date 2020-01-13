@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>104職缺爬蟲結果</title>
+</head>
+<body>
+    <h2>您爬取的職缺如下：</h2>
+
+    {% for job in text %}
+    {{ job }} <br>
+	{% endfor %}
+    
+</body>
+</html>
