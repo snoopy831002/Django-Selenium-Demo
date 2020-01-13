@@ -6,9 +6,11 @@
 </head>
 <body>
     <h1>104職缺爬蟲：</h1>
-        <form action="/POST_crawl/" method="post">{% csrf_token %}
-        輸入職缺名稱:<input type="text" name="title"> <br>
-        <input type="submit" value="送出">        
+    <p>程式執行需要一些時間，請耐心等待~</p>
+    <form action="/POST_crawl/" method="post">{% csrf_token %}
+       輸入職缺名稱:<input type="text" name="title"><br>
+       <input type="submit" value="送出">        
     </form>
+
 </body>
 </html>
